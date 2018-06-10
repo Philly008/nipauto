@@ -45,7 +45,7 @@ logging.basicConfig(level=logging.DEBUG, format=' %(asctime)s - %(levelname)s - 
 5.调用 close() 关闭该文件。
 
 CSS 选择器的例子
-''' python
+``` python
 传递给 select() 方法的选择器         将匹配...
 soup.select('div')                所有名为 <div> 的元素
 soup.select('#author')            带有 id 属性为 author 的元素
@@ -54,7 +54,7 @@ soup.select('div span')           所有在 <div> 元素之内的 <span> 元素
 soup.select('div > span')         所有在 <div> 元素之内的 <span> 元素，中间没有其他元素
 soup.select('input[name]')        所有名为 <input> ，并有一个 name 属性，其值无所谓的元素
 soup.select('input[type="button"]') 所有名为 <input> ，并有一个 type 属性，其值为 button 的元素
-'''
+```
 selenium 的 WebDriver 方法，用于寻找元素
 方法名                                     返回的 WebElement 对象/列表
 browser.find_element_by_class_name(name)    使用 CSS 类 name 的元素
