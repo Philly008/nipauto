@@ -1,0 +1,1 @@
+python D:\SVN\auto\youdao\youdao_auto2.py
