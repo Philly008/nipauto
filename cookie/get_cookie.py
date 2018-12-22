@@ -20,10 +20,10 @@ print('登录前的 cookies为：' + str(cookie_before))
 time.sleep(1)
 
 driver.find_element_by_id(u'id_email').clear()
-driver.find_element_by_id(u'id_email').send_keys('liuup66@163.com') # 邮箱
+driver.find_element_by_id(u'id_email').send_keys('xxxx@163.com') # 邮箱
 time.sleep(1)
 driver.find_element_by_id(u'id_password').clear()
-driver.find_element_by_id(u'id_password').send_keys('Liushui68')    # 密码
+driver.find_element_by_id(u'id_password').send_keys('xxxx')    # 密码
 print('请手动输入验证码：')
 security_code = input()
 time.sleep(3)
